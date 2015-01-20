@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Transforms - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Transforms.res" /d "NDEBUG" /d "_AFXDLL" "E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\Transforms.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Transforms.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\CDibData.cpp"
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\DlgDisplay.cpp"
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\MainFrm.cpp"
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\MyTrace.cpp"
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\Quantize.cpp"
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\Transforms.cpp"
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsDoc.cpp"
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Transforms.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Transforms.pdb" /machine:I386 /out:"Release/Transforms.exe" 
+".\Release\CDibData.obj"
+".\Release\DlgDisplay.obj"
+".\Release\MainFrm.obj"
+".\Release\MyTrace.obj"
+".\Release\Quantize.obj"
+".\Release\StdAfx.obj"
+".\Release\Transforms.obj"
+".\Release\TransformsDoc.obj"
+".\Release\TransformsView.obj"
+".\Release\Transforms.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDibData.cpp
+DlgDisplay.cpp
+MainFrm.cpp
+MyTrace.cpp
+Quantize.cpp
+Transforms.cpp
+TransformsDoc.cpp
+TransformsView.cpp
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(273) : warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(223) : warning C4101: 't' : unreferenced local variable
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(487) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(537) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(551) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(619) : warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(758) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(822) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(853) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(933) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(964) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(1035) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\Data from GIK Drive\GIK\Semester 2\Digital Image WaterMarking\Transform Codes\Transforms\TransformsView.cpp(1114) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Transforms.exe - 0 error(s), 13 warning(s)
+</pre>
+</body>
+</html>
